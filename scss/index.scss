@@ -1,0 +1,35 @@
+.card {
+  $sizeMini: 10px;
+  $time: 0.1s;
+
+  border-radius: $sizeMini + 12;
+  overflow: hidden;
+  box-shadow: 0 $sizeMini 20px 0 rgba(0, 0, 0, 0.3);
+  background-color: white;
+  transition: $time + 200ms;
+
+  img {
+    width: 100%;
+  }
+
+  .inner {
+    padding: $paddingmini;
+
+    h4 {
+      color: $asosiyrang;
+    }
+
+    p {
+      font-style: italic;
+    }
+  }
+
+  &:hover {
+    background-color: blue;
+    color: white !important;
+
+    p {
+      font-style: normal;
+    }
+  }
+}

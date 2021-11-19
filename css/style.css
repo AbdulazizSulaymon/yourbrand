@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e95c1b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .col {
+  width: 33%;
+  padding: 20px 15px;
+}
+
+.card {
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  background-color: white;
+  transition: 0.3s;
+}
+.card img {
+  width: 100%;
+}
+.card .inner {
+  padding: 15px;
+}
+.card .inner h4 {
+  color: #e95c1b;
+}
+.card .inner p {
+  font-style: italic;
+}
+.card:hover {
+  background-color: blue;
+  color: white !important;
+}
+.card:hover p {
+  font-style: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
